@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+.p2{
+    height: 4589px;
+}
+        .p1 {
+
+            border: 2px solid green;
+            width: 20%;
+            box-sizing: border-box;
+            margin: 12px 5px;
+            
+            padding: 2px;
+            text-align: center;
+            display: inline-block;
+
+
+        }
+
+        #i3 {
+
+            /* position: static(default),relative,absolute,sticky,fixed */
+            /* relative:changes to element relative to its normal postion,and leave a gap  */
+            position: relative;
+            top: 30px;
+        }
+         #i4{
+            /* position: relative;
+            top: 35px;
+            right: 89px; */
+            /* position change with respect to parent ,no gap is left in  old normal position*/
+        }
+        #i2{
+            /* position: absolute;
+            top:340px;
+                     } */
+            /* position: fixed; 
+            /* position  fixed relative to the browser window */
+          /*  right: 20px; */
+          position:sticky;
+          /* sticky fixed the position of elemenmt relative to its normal position  */
+          top:8px;
+          }
+
+    
+    </style>
+
+</head>
+
+<body>
+    <div class="p2">
+        <div class="p1" id="i1"> 111111 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur enim quaerat iste.
+            aspernatur nobis ipsum magni magnam architecto veniam!
+        </div>
+        <div class="p1" id="i2"> 222222Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat aliquam ea cumque hic
+            aspernatur nobis ipsum magni magnam architecto veniam!</div>
+        <div class="p1" id="i3"> 333333Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat aliquam ea cumque hic
+            aspernatur nobis ipsum magni magnam architecto veniam!</div>
+        <div class="p1" id="i4"> 444444Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat aliquam ea cumque hic
+            aspernatur nobis ipsum magni magnam architecto veniam!</div>
+    </div>
+</body>
+
+</html>
